@@ -30,4 +30,4 @@ y lo hace en ese orden para que el capitalize no tome como primer caracter al es
 luego usa un if y un else para validar que la variable nota_texto es un numero, en caso de que sea así crea una variable en donde pone
 la nota_texto como int, y luego imprime el nombre del estudiante, la materia que cursa y la nota que obtuvo, con un print.
 En el caso contrario, si la nota_texto fuera "ocho" en vez de "8" no cumpliría con la condición puesta, por lo que se imprimiría lo puesto
-en el elese, que es "La nota no es valida".
+en el else, que es "La nota no es valida".
