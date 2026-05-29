@@ -1,0 +1,29 @@
+1) ¿Porque es importante validar los datos que ingresa un usuario?
+
+es importante que validemos los datos que ingresa un usuario, para que estos no hagan que nuestro programa falle,
+porque si nosotros necesitamos que los datos ingresados sean de un tipo especifico, y el usuario ingresa datos de
+otro tipo, puede provocar que nuestro progama nos tire un error.
+
+
+2) ¿Que hace strip y en que se diferencia de split?
+
+con el strip lo que podemos hacer es quitar los espacios al principio o al final de un dato tipo str, ejemplo si
+yo tuviera un dato que fuera "  hola  ", al usar strip el dato quedaría como "hola", tambien se puede usar para quitar
+caracteres especificos. En cambio el split lo que hace es separar los datos en partes, ejemplo si yo tuviera un dato que
+fuera "hola mundo cruel" y usar el split en para modificar ese dato, lo que quedaría sería "hola", "mundo", "cruel".
+este tambien se puede usar con caracteres especificos como ",", ";", etc. Este al igual que el primero solo funciona con strings.
+
+
+3) ¿Para que puede servir count cuando una linea tiene datos separados por comas o por punto y coma?
+
+el count en una linea con datos separados por comas o por punto y coma, nos puede servir para contar cuantos datos hay en la linea,
+y en caso de que la linea de datos necesitara cumplir con algún formato, por ejemplo que solo tenga 3 datos, podríamos usar el count
+para validar si la linea cumple con el formato.
+
+
+4) ¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+
+el problema que puede traer es que nos genere un fallo, si este dato necesita cumplir con alguna condición, ejemplo si para terminar un
+bucle hecho con un while le pedimos a el usuario que el dato ingresado sea igual a "fin", y el dato ingresado por un usuario es " fin", 
+el bucle va a seguir, porque los datos no son iguales. Otro error podría ser que si un dato queda guardado con un espacio, y luego lo
+necesitemos buscar, podría no encontarse.

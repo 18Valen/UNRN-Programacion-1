@@ -1,0 +1,33 @@
+1) Este ejercicio no es para programar. Lean el codigo y escriban una explicación de que hace.
+
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+
+- Para orientar la explicacion:
+
+    a) ¿Que queda guardado en partes?
+    b) ¿Por que se usa strip antes de capitalize?
+    c) ¿Que dato se esta validando antes de convertirlo?
+    d) ¿Que imprimiria el programa si en lugar de 8 viniera ocho?}
+
+
+el codigo dado lo que hace es crear una variable con un texto, luego crea otra variable en donde guarda el texto de la
+primer variable separado en partes quedando de la manera [" mara ", " programacion ", " 8 "], despues crea tres variables
+una para el nombre, otra para la materia y la ultima para la nota en formato de texto, a las tres les quita los espacios
+contenidos al principio con un strip, y al nombre y la materia los pone con la primera letra en mayuscula a traves del capitalize().
+y lo hace en ese orden para que el capitalize no tome como primer caracter al espacio vacío.
+luego usa un if y un else para validar que la variable nota_texto es un numero, en caso de que sea así crea una variable en donde pone
+la nota_texto como int, y luego imprime el nombre del estudiante, la materia que cursa y la nota que obtuvo, con un print.
+En el caso contrario, si la nota_texto fuera "ocho" en vez de "8" no cumpliría con la condición puesta, por lo que se imprimiría lo puesto
+en el elese, que es "La nota no es valida".
