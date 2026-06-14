@@ -1,0 +1,30 @@
+Explicá con tus palabras la diferencia entre:
+
+    Lista
+    Tupla
+    Conjunto
+    Diccionario
+
+Para cada estructura, indicá un ejemplo de situación donde podría resultar útil.
+
+estos cuatro son estructuras de datos que nos permiten almacenar y organizar colecciones de elementos 
+cada uno de distintas maneras, por lo cual los podemos usar según las necesidades que tengamos en nuestro
+programa. Las listas se escriben con "[]" y nos permiten almacenar datos de manera ordenada, los datos que
+guardemos son modificables y tambien pueden ser repetidos. Las tuplas son parecidas ya que tambien nos
+permiten almacenar datos de manera ordena y repetitiva, con la diferencia de que eston no son modificables
+y que la manera de escribirlas es con "()". Los conjuntos se pueden escribir con "{}" o con "set()", y nos 
+permiten guardar datos sin que se repitan, además al igual que las listas los datos que se guarden en ellos
+se pueden modificar, pero a diferencia de las listas y tuplas no guardan los datos de manera ordenada. Los
+diccionario se escriben de la misma manera que los conjuntos, con "{}", pero con la diferencia de que los
+datos que se guardan en ellos siempre se guardan en pares, de la forma "Clave : Valor", estos datos son
+modificables y las claves no se pueden repetir, en cambio los valores si se pueden repetir.
+
+Un ejemplo donde las listas pueden ser utiles, sería cuando necesitemos guardar los nombres de estudiantes
+de una clase, en donde puede llegar a ser necesario agregar o eliminar estudiantes, además de que puede haber
+dos o más estudiantes con el mismo nombre o apellido.
+Un ejemplo donde las tuplas pueden ser utiles, puede ser cuando se necesite guardar cordenadas, ya sea para
+un juego o para otra cosa, ya que estos casos necesitaríamos que los datos no se modifiquen por error.
+Un ejemplo donde los conjuntos pueden ser utiles, sería en una situación donde necesitemos guardar numeros de
+D.N.I. sin que estos se repitan.
+Un ejemplo donde un diccionario puede ser utíl, podría ser cuando se necesite guardar datos de personas, donde
+el nombre podría ser la clave, y la información de la persona los valores.
